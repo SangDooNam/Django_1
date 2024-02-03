@@ -1,5 +1,6 @@
 """Data for the notes views"""
-
+from django.db import models
+from django.shortcuts import redirect
 
 notes = [
     {
@@ -39,3 +40,5 @@ notes = [
         "section": "URL Mapping",
     },
 ]
+
+

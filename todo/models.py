@@ -1,5 +1,6 @@
-"""Data for the todo views"""
+from django.db import models
 
+# Create your models here.
 
 todos = [
     {"text": "Start the repository", "topic": "Course Project", "status": "done"},
